@@ -2,9 +2,20 @@
 
 GivestTo is gift giving list generator that quickly and randomly picks people that aren't in the same family or sub-group.  So, for example, in the example below John, Paul, George, and Ringo would not never be picked to give gifts to each other.
 
-```$ php example.php ```
+```php
+include('christmaslist.php');
 
-Example output:
+$group_list = [
+	['John','Paul','George','Ringo'],
+	['Elmo','Oscar','Big Bird','Bert'],
+	['Larry','Curly','Moe']
+];
+
+generateGivesTo($group_list);
+```
+
+Example output (```$ php example.php ```):
+
 ```
 Gift Giving List 2015
 ------------------------
