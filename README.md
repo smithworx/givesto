@@ -32,7 +32,7 @@ CURLY gives to BIG BIRD
 MOE gives to GEORGE
 ```
 
-# Why
+## Why?
 
 Christmas is a time for gift-giving --- sometimes, families and friends need a quick way to determine who gives to who. So, I created this little tool that allows families and friends to quickly enter the names of people (that will be giving and receiving gifts) to have gift-giving list automatically (and randomly) generated. 
 
