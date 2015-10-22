@@ -1,6 +1,6 @@
 <?php
 
-function generateGivesTo($group_list, $attempt = 0){
+function generate_gives_to($group_list, $attempt = 0){
 	$recipients = [];
 	$givesto = [];
 	$attempt += 1;
@@ -18,7 +18,7 @@ function generateGivesTo($group_list, $attempt = 0){
 		foreach($group as $k2=>$person){
 			if(empty($possible_recipients)){
 				if($attempt < 10){
-					return generateGivesTo($group_list, $attempt);
+					return generate_gives_to($group_list, $attempt);
 				} else {
 					echo " - INCOMPLETE SOLUTION - ";
 				}
@@ -30,11 +30,11 @@ function generateGivesTo($group_list, $attempt = 0){
 		}
 	}
 
-	fancyPrint($givesto);
+	fancy_print($givesto);
 	return $givesto;
 }
 
-function fancyPrint($givesto){
+function fancy_print($givesto){
 
 	echo "Gift Giving List ".@date("Y")."\n";
 	echo "------------------------\n";

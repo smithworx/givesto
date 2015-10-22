@@ -1,6 +1,6 @@
 <?php
 
-include('christmaslist.php');
+include('givesto.php');
 
 $group_list = [
 	['John','Paul','George','Ringo'],
@@ -8,4 +8,4 @@ $group_list = [
 	['Larry','Curly','Moe']
 ];
 
-generateGivesTo($group_list);
+generate_gives_to($group_list);
