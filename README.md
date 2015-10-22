@@ -1,6 +1,6 @@
 # GivesTo
 
-GivesTo is gift giving list generator that quickly and randomly picks people that aren't in the same family or sub-group.  So, for example, in the example below John, Paul, George, and Ringo would not never be picked to give gifts to each other.
+GivesTo is a gift giving list generator that quickly and randomly picks recipients that aren't in the same family or sub-group.  So, for example, in the example below John, Paul, George, and Ringo (all in the same group) would not never be picked to give gifts to each other. Instead each will be randomly selected to give to someone in one of the other groups.
 
 ```php
 include('givesto.php');
